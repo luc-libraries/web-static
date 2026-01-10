@@ -9,7 +9,7 @@
 
 const EXPORTS_DIR = "./figma_exports";
 const OUTPUT_DIR = "./dist";
-const BASE_URL = "https://loyolauniversitychicago.github.io/libraries-assets/favicons";
+const BASE_URL = "https://luc-libraries.github.io/web-static/files/favicons/dist";
 
 const run = async (cmd) => {
   const command = new Deno.Command(cmd[0], {

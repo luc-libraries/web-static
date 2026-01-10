@@ -50,10 +50,10 @@ deno run --allow-run --allow-read --allow-write generate.js
 Add to `<head>` in LibGuides templates:
 
 ```html
-<link rel="icon" href="https://loyolauniversitychicago.github.io/libraries-assets/favicons/favicon.ico" sizes="32x32">
-<link rel="icon" href="https://loyolauniversitychicago.github.io/libraries-assets/favicons/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="https://loyolauniversitychicago.github.io/libraries-assets/favicons/apple-touch-icon.png">
-<link rel="manifest" href="https://loyolauniversitychicago.github.io/libraries-assets/favicons/site.webmanifest">
+<link rel="icon" href="https://luc-libraries.github.io/web-static/files/favicons/dist/favicon.ico" sizes="32x32">
+<link rel="icon" href="https://luc-libraries.github.io/web-static/files/favicons/dist/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://luc-libraries.github.io/web-static/files/favicons/dist/apple-touch-icon.png">
+<link rel="manifest" href="https://luc-libraries.github.io/web-static/files/favicons/dist/site.webmanifest">
 ```
 
 For LibGuides CMS, you can also upload `dist/favicon.ico` directly via:  
