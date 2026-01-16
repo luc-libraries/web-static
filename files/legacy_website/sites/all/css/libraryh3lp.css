@@ -1,0 +1,9 @@
+a {
+color: #680013;
+}
+a:hover,a:focus{color:#680013;text-decoration:underline;}
+
+.badge-info, .label-info {
+    background-color: #484848;
+}
+.btn-primary:active,.btn-primary.active{background-color:#EEB111;}

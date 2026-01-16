@@ -1,0 +1,730 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color:#000000;
+	font-family:verdana,arial,helvetica,clean,sans-serif;
+	font-size:.7em;
+	text-align:center;
+}
+
+div, p, span, td {
+	font-family:verdana,arial,helvetica,clean,sans-serif;
+}
+
+h3 {
+	color: #a30046;
+	font-family: Times, "Times New Roman", serif;
+	font-size: 16px;
+	font-weight:bold;
+	margin-top: 1.2em;
+	text-transform: uppercase;
+	padding-left:1.75em;
+	font-style: normal !important;
+    text-align: left !important;
+}
+
+a {
+	color:#A30046;
+}
+
+#wrapper {
+	border:1px solid #A29E9E;
+	width:950px;
+	margin:0 auto;
+	margin-top:16px;
+	/*padding-left:20px;
+	padding-right:20px;*/
+	text-align:left;
+}
+
+/*  -----{ header }---------------------------  */
+
+#hd {
+height: 123px;
+text-align: right;
+}
+
+#hd h1 {
+	float: left;
+	width: 300px;
+	text-align: left;
+}
+
+#hd h1 a {/* rule and filter below for for IE5 */
+text-indent/**/: -9999px;
+color: #fff;
+overflow: hidden;
+display:block;
+width: 600px;
+height: 91px;
+background-color:#cacaca;
+background: url("http://libraries.luc.edu/images/libraries_header.jpg") no-repeat 0px 0px;
+padding-bottom:0px;
+}
+
+#hd ul {
+	/* padding: .90em .4em 0 0;*/
+	padding: 0 .4em 0 0;
+	float: right;
+	height: 1.5em;
+}
+
+#hd li {
+	list-style: none;
+	display: inline;
+}
+
+#hd li a {
+	color: #555f6a;
+	text-decoration:none;
+	padding: 0 .7em;
+	float: left;
+	text-align: center;
+	display: block;
+	width: auto;
+	border-right: .1em #eaeaea solid;
+}
+
+#hd li a:hover {
+	color: #a30046;
+}
+
+#hd li.last a {
+	background-image: none;
+	border-right: .1em #ffffff solid;
+}
+
+#hd li a.links:hover {
+	color: #a30046;
+}
+
+/*  -----{ quicksearch }---------------------------  */
+
+#quicksearch {
+	float:right;
+	margin-right:.95em;
+	/*margin-top:.75em;*/
+	width:28em;
+	clear:right;
+}
+
+#quicksearch fieldset {
+	border: none;
+	}
+
+#quicksearch .sites {
+	color: #555f6a;
+	float:left;
+	font-size:.9em;
+	margin-top:-10px;
+	margin-left:20px;
+}
+
+#quicksearch legend {
+	display: none;
+	}
+
+#quicksearch img {
+	cursor: pointer;
+	}
+
+#query input {
+	vertical-align:middle;
+	padding: .3em .3em;
+	width: 11.5em;
+	height:.9em;
+	margin-top: -.5em;
+}
+
+#quicksearch input.text {
+	vertical-align:middle;
+	padding: .3em .3em;
+	margin-top: -.5em;
+	width:125px;
+}
+
+/* MenuItem and MenuBarItem styles */
+
+div.yuimenu li, div.yuimenubar li {
+	text-align:left;
+	font-size:13px;
+}
+
+.yuimenuitem a.selected, .yuimenubaritem a.selected {
+	background-color:#eeb111;
+}
+
+div.yuimenubar li.hassubmenu em.submenuindicator {
+	background-position:0 -24222px;
+	margin:0 0 0 1000px;
+}
+
+/*  -----{ main content area }---------------------------  */
+
+#content {
+	border:1px solid #EAEAEA;
+	margin-left:13px;
+	margin-right:13px;
+}
+
+#railroad {
+	overflow: hidden;
+	height: 16px;
+	margin-top:10px;
+	background: #a30046 url("http://libraries.luc.edu/images/railroad.gif") no-repeat  85% 1px;
+}
+
+#toplinks {
+	width:100%;
+	margin-top: .8em;
+	font-size:9px;
+}
+
+#breadcrumb {
+	padding-left: 2em;
+	
+}
+
+#SS_Help {
+	float:right;
+	margin-right:2em;
+}
+
+
+/*  -----{ subnav }---------------------------  */
+
+#subnav {
+	border-left: 1px #c1c1c1 solid;
+	margin-top: 3.2em;
+	padding: 0em 0em 3em 1em;
+	float:right;
+	width:223px;
+	font-size:12px;
+	background-color:#FFFFFF;
+}
+
+#subnav ul{
+	margin-bottom:2em;
+	height:auto;
+	padding: 0em 0em 1em 1em;
+	clear: both;
+	text-align: left;
+	border-bottom: 1px #c1c1c1 dashed;
+}
+
+#subnav img {
+	padding: 0em 0em 1em 1em;
+	clear: both;
+}
+
+#subnav li {
+	font-weight: bold;
+	padding: .45em 0;
+	display: list-item;
+	list-style-type: none;
+	color: #555f6a;
+}
+
+#subnav h5 {
+	color: #a30046;
+	margin-top: 1em;
+	width:150px;
+	font-weight:normal;
+	font-size:12px;
+}
+
+#subnav ul.relatedlinks {
+	font-size: 85%;
+	font-weight: bold;
+}
+
+.relatedlinks li {
+	margin: -1em 0;
+	display: list-item;
+	list-style-type: none;
+}
+
+#subnav li a {
+	text-decoration:none;
+	color: #555f6a;
+}
+
+#subnav li a:hover {
+	color: #a30046;
+}
+
+/*  -----{ Serials Solutions content }---------------------------  */
+
+#SS_content {
+	margin-left: 2.8em;
+	width:635px;
+}
+
+#SS_content li {
+	padding-bottom:10px;
+}
+
+.SS_MainTitle {
+	color: #a30046;
+	font-family: Times, "Times New Roman", serif;
+	font-size: 16px;
+	font-weight:bold;
+	margin-top: 1.2em;
+	text-transform: uppercase;
+}
+
+/*  -----{ Serials Solutions content - Journal Search }---------------------------  */
+
+.SS_AtoZLinks, .SS_CategorySelector {
+	padding-bottom:30px;
+}
+
+.SS_AtoZLinks {
+	padding-top:20px;
+}
+
+.SS_ToolLabels {
+	color:#555F6A;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.SS_ResultsAtoZLinks {
+	font-size:12px;
+}
+
+.SS_EJPPreContentHorizontalRules, .SS_HorizontalRules {
+	visibility:hidden;
+}
+
+.SS_SearchToolsGroup {
+	background: #FFFFFF url("http://libraries.luc.edu/images/serialssolutions/findElectronicJournals.png") no-repeat;
+	margin-top:16px;
+	border-bottom:1px solid #CACACA;
+	padding-top:30px;
+}
+
+.SS_ResultsAtoZLinks {
+	text-align:left;
+}
+
+.SS_TitleSearchForm {
+	text-align:left;
+	padding-bottom:10px;
+}
+
+.SS_CategorySelector {
+	text-align:left;
+}
+
+.SS_NextResultsLabel, .SS_PrevResultsLabel {
+	font-weight:bold;	
+}
+
+.SS_Holding {
+	background-color:#FFFFFF !important;
+	padding-bottom:10px;
+}
+
+.SSJournalAlternateTitle {
+	padding-left:8px;
+}
+
+.SS_EJPResultsRefinerLink, .SS_EJPResultsJournalLinker {
+	visibility:hidden;
+}
+
+.SS_HoldingData {
+	padding-left:15px;
+	padding-top:5px;
+	background: #FFFFFF url("http://libraries.luc.edu/images/serialssolutions/gray_arrow_hz.png") no-repeat 4px 10px;
+}
+
+.SS_LetterLinks {
+	padding-top:10px;
+}
+
+nobr {
+	padding-right:10px;
+	display:inline-block;
+}
+
+.SS_HelpTop {
+	background: #FFFFFF url("http://libraries.luc.edu/images/serialssolutions/electronicJournalsHelp.png") no-repeat;
+	margin-top:16px;
+	padding-top:30px;
+}
+
+.SS_SearchHelp {
+	font-weight:bold;
+	font-size:12px;
+	color:#555F6A;
+}
+
+.SS_HelpCell {
+	font-weight:bold;
+	width:120px;
+	vertical-align:top;
+}
+
+/*  -----{ Serials Solutions content - Citation Linker }---------------------------  */
+
+#CitationResults {
+	float:left;
+	width:537px;
+	margin-top:0px;
+	position:relative;
+	top:0px;
+}
+
+span.SS_ContentHeading {
+	font-size:100%;
+}
+
+.SS_CitationTable, table.CandyWrapper {
+	clear:none;
+	position:relative;
+	width:100%;
+	float:left;
+}
+
+#CandyWrapper {
+	clear:none;
+	position:relative;
+	width:100%;
+	float:left;
+}
+
+.SS_CitationTable {
+	margin-bottom:7px;
+	margin-top:7px;
+	font-size:100%;
+}
+
+.SS_CitationTable tr,.SS_CitationTable td,.SS_CitationTable div {
+	/*height:9px;*/
+	padding:0 0 0 0;
+}
+
+.CitationLabel {
+	font-weight:normal;
+	color:#000000;
+}
+
+#CitationJournalArticleLabel, #CitationJournalTitleLabel, #CitationJournalDate, #CitationJournalIssue {
+	color:#000000;
+}
+
+.CitationValue {
+	color:#555F6A;
+}
+
+#CitationJournalArticleValue, #CitationJournalTitleValue, #CitationJournalDateValue, #CitationJournalIssueValue, #CitationJournalDOIValue {
+	color:#555F6A;
+}
+
+.SSALItemEmail, .SSALItemExport {
+	padding:0 10px 0 10px;
+}
+
+.SSALCitationStyleInfoLink {
+	visibility:hidden;
+}
+
+div.doiNumber, div.res, div.cl {
+font-size:100%;
+}
+
+table.WideNoBorder {
+/*margin-bottom:7px;*/
+/*width:70%;*/
+}
+
+tr.MediumLine td {
+	width:270px;
+}
+
+tr.LinePadRow {
+display: none;
+}
+
+span.SS_searchTitle {
+display:inline;
+font-size:100%;
+font-weight:bold;
+margin:0;
+}
+
+.BorderN {
+	background:#FFFFFF url("http://libraries.luc.edu/images/serialssolutions/heading_background.png") repeat-x;
+	padding:4px 0 2px 4px;
+}
+
+#RefinerLink0 {
+	float:right;
+	margin-right:1em;
+	font-size:10px;
+	vertical-align:top;
+}
+
+#ContentAvailableTable {
+	border-top:1px solid #555F6A;
+	border-left:1px solid #555F6A;
+	border-right:1px solid #555F6A;
+	background-color:#EAEAEA;
+	background: #EAEAEA url("http://libraries.luc.edu/images/serialssolutions/fulltext.png") no-repeat 3px 3px;
+	padding-bottom:10px;
+	margin-bottom:0px;
+}
+
+#ContentNotAvailableTable {
+	border:1px solid #555F6A;
+	background: #EAEAEA url("http://libraries.luc.edu/images/serialssolutions/nofulltext.png") no-repeat 3px 3px;
+	padding-bottom:0px;
+	margin-bottom:30px;
+	width:100%;
+	padding-top:12px;
+}
+
+#ContentAvailableTable h4 {
+	font-size:12px;
+	padding-left:40px;
+	padding-top:8px;
+}
+
+.SS_NoResults {
+	font-size:12px;
+	padding-left:35px;
+}
+
+.nofulltextMessage {
+	font-size:11px;
+	font-weight:normal;
+	padding-left:40px;
+}
+
+.nofulltextMessage_option {
+	display:block;
+	padding-left:15px;
+	padding-top:5px;
+	background: #EAEAEA url("http://libraries.luc.edu/images/serialssolutions/gray_arrow_hz.png") no-repeat 4px 10px;
+}
+
+#JournalLinkTable {
+	border-bottom:1px solid #555F6A;
+	border-left:1px solid #555F6A;
+	border-right:1px solid #555F6A;
+	background-color:#EAEAEA;
+	margin-top:0px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+
+#DateCL {
+background: #EAEAEA url("http://libraries.luc.edu/images/serialssolutions/green_arrow_hz.png") no-repeat 0px 3px;
+padding-left:10px;
+min-width:150px;
+}
+
+#MoreOptions {
+	font-size:12px;
+	color:#000000;
+}
+
+.CustomLinkGroup {
+	padding-bottom:0px;
+	vertical-align: middle;
+}
+
+.CustomLink {
+	vertical-align: middle;
+}
+
+.CustomLink_icon {
+	vertical-align:middle;
+	border:none;
+	background-color:#FFFFFF;
+	padding-right:5px;
+}
+
+#url {
+	width:537px;
+}
+
+#url td.CustomLinkGroup {
+	padding-bottom:13px;
+}
+
+/*  -----{ Serials Solutions content - Citation Linker Email/Export options }---------------------------  */
+
+table.SSALExportCitationForm {
+    font-size: 11px;
+    background: #DBDBDB;
+    width: 465px;
+    border: solid 1px #A29E9E;
+}
+
+table.SSALEmailCitationForm {
+    font-size: 11px;
+    background: #DBDBDB;
+    width: 480px;
+    border: solid 1px #A29E9E;
+}
+
+table.SSALEmailItemForm {
+    font-size: 11px;
+    background: #DBDBDB;
+}
+
+table.SSALEmailConfirmation {
+    font-size: 11px;
+    background: #DBDBDB;
+    width: 465px;
+    border: solid 1px #A29E9E;
+}
+
+td.SSALExportCitationFormHeading {
+    text-align: left;
+    margin: 15px;
+    font-size: 12px;
+    font-style: normal;
+	font-weight:bold;
+}
+
+td.SSALExportCitationFormHeadingSmall {
+    text-align: left;
+    margin: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+td.SSALExportItemFormSubmit {
+    text-align: right;	
+}
+
+img.SSALArrowLinkImage {
+    padding-bottom: 3px;
+    border-style: none;
+}
+
+td.SSALEmailCitationFormHeading {
+    text-align: left;
+    margin: 15px;
+    font-size: 12px;
+    font-style: normal;
+	font-weight:bold;
+}
+
+td.SSALEmailItemFormSubmit {
+    text-align: right;  
+}
+
+.SSALRequiredField {
+    color: #ff0000;
+    padding-right: 0.1em;
+}
+
+.SSALEmailInputField {
+    font-family: verdana,arial,helvetica,clean,sans-serif;
+    font-size: 11px;
+}
+
+td.SSALEmailFormLabel {
+    text-align: left;
+    width: 120px;
+    vertical-align: top;
+}
+
+.SSALItemsEmailMessage {
+    color: #ff0000;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.SSALItemExport,
+span.SSALItemEmail {
+   font-size:90%;	
+}
+
+a.SSALExportLink {
+   text-decoration: none;
+}
+
+a.SSALExportLink:hover {
+   color: #A30046;
+   text-decoration: underline;
+}
+
+a.SSALExportLink:visited {
+   color: A30046;      
+}
+
+a.SSALExportLink:active {
+   color: A30046;      
+   text-decoration: underline;
+}
+
+div.SSALCitationStyleInfoLink {
+   font-size: 12px; 
+   font-weight: normal;
+}
+
+/*  -----{ Serials Solutions content - Article Finder }---------------------------  */
+
+#CitationRefiner {
+	position:relative;
+	top:-30px;
+}
+
+#CitationRefiner .SS_searchTitle {
+	visibility:hidden;
+}
+
+#CitationRefiner .BorderN {
+	background:#FFFFFF;
+}
+
+#CitationRefiner .SS_NoResults {
+	font-size:100%;
+	padding-left:0px;
+}
+
+#CitationRefiner .SSRefinerBannerSubText {
+	padding-left:5px;
+}
+
+
+/*  -----{ footer }---------------------------  */
+
+#ft {
+width:60em;
+clear:both;
+margin: 0 auto;
+padding: .75em 0 0em 0;
+font-size: 10px;
+text-align: center;
+color: #a30046;}
+
+#ft a {color: #555f6a;
+text-decoration:none;}
+
+#ft a:hover {color: #a30046;}
+
+.footerlogo {text-indent/**/: -9999px;
+color: #fff;
+overflow: visible;
+display: block;
+height: 185px;
+background: #ffffff url("http://www.luc.edu/supports/images/weblogo.gif") no-repeat 50% 25px;}
+
+
+#ft h2 {
+	font-weight:normal;
+	font-size:10px;
+}
+
+.SS_CopyRightStatement {
+	visibility:hidden;
+}

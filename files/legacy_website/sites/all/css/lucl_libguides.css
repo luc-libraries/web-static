@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+/* This CSS file provides styles for libguides.luc.edu */
+
+#lucl_header {
+height: 123px;
+text-align: right;
+border-bottom: 1px solid #CACACA;
+}
+
+#lucl_header h1 {
+	float: left;
+	width: 300px;
+	text-align: left;
+}
+
+#lucl_header h1 a {/* rule and filter below for for IE5 */
+text-indent/**/: -9999px;
+color: #fff;
+overflow: hidden;
+display:block;
+width: 600px;
+height: 91px;
+background-color:#cacaca;
+background: url("http://libraries.luc.edu/sites/all/themes/lucl/images/libraries_header.jpg") no-repeat 0px 0px;
+padding-bottom:0px;
+float:left;
+}
+
+#lucl_header ul {
+	/* padding: .90em .4em 0 0;*/
+	padding: 0 .4em 0 0;
+	float: right;
+	height: 1.5em;
+}
+
+#lucl_header li {
+	list-style: none;
+	display: inline;
+}
+
+#lucl_header li a {
+	color: #555f6a;
+	text-decoration:none;
+	padding: 0 .7em;
+	float: left;
+	text-align: center;
+	display: block;
+	width: auto;
+	border-right: .1em #eaeaea solid;
+}
+
+#lucl_header li a:hover {
+	color: #a30046;
+}
+
+#lucl_header li.last a {
+	background-image: none;
+	border-right: .1em #ffffff solid;
+}
+
+#lucl_header li a.links:hover {
+	color: #a30046;
+}
+
+/*  -----{ quicksearch }---------------------------  */
+
+#quicksearch {
+	float:right;
+	margin-right:.95em;
+	/*margin-top:.75em;*/
+	width:28em;
+	clear:right;
+}
+
+#quicksearch fieldset {
+	border: none;
+	}
+
+#quicksearch .sites {
+	color: #555f6a;
+	float:left;
+	font-size:.9em;
+	margin-top:-10px;
+	margin-left:20px;
+}
+
+#quicksearch legend {
+	display: none;
+	}
+
+#quicksearch img {
+	cursor: pointer;
+	}
+
+#query input {
+	vertical-align:middle;
+	padding: .3em .3em;
+	width: 11.5em;
+	height:.9em;
+	margin-top: -.5em;
+}
+
+#quicksearch input.text {
+	vertical-align:middle;
+	padding: .3em .3em;
+	margin-top: -.5em;
+	width:125px;
+}
+
+
+/*  -----{ footer }---------------------------  */
+
+#lucl_ft {
+width:60em;
+clear:both;
+margin: 0 auto;
+padding: .75em 0 0em 0;
+font-size: 10px;
+text-align: center;
+color: #a30046;}
+
+#lucl_ft a {color: #555f6a;
+text-decoration:none;}
+
+#lucl_ft a:hover {color: #a30046;}
+
+.footerlogo {text-indent/**/: -9999px;
+color: #fff;
+overflow: visible;
+display: block;
+height: 185px;
+background: #ffffff url("http://libraries.luc.edu/sites/all/themes/lucl/images/weblogo.gif") no-repeat 50% 25px;}
+
+
+#lucl_ft h2 {
+	font-weight:normal;
+	font-size:10px;
+}

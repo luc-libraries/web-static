@@ -1,0 +1,427 @@
+@charset "utf-8";
+/* CSS Document */
+/* This CSS file provides styles for libguides.luc.edu (LibGuides 2.0)*/
+
+
+
+/*Global UI */
+body {
+    color: #000;
+    font-family:'Open Sans', sans-serif;
+    color: #000;
+    padding:0px;
+    }
+
+a {
+    color: #680013;
+}
+a:hover{
+    color: #680013;
+    text-decoration:none;
+}
+
+
+.affix {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/*Header */
+#luclheader {
+    height: 72px;
+	margin: 0;
+	background: #fff;
+}
+
+#luclheader h1 {
+    width:50%;
+    float: left;
+    padding-left:15%;
+   }
+#luclheader h1 a {
+    background: url("http://libraries.luc.edu/sites/all/css/logo.png") no-repeat 0px 0px;
+    width: 180px;
+	height: 40px;
+    display: block;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+}
+
+#navsearch {
+    float:right;
+    padding-right:15%;
+    width: 25%;
+	height: 100px;
+	display: block;
+    font-family: "Droid Sans", Helvetica, sans;
+    text-transform: uppercase;
+}
+#navsearch ul{
+    margin:10px 0 0 0;
+    float:right;
+}
+
+#navsearch ul li{
+	float: left;
+	margin-right: 5px;
+    list-style-type: none;
+    color: #525252;
+width: auto;
+font-size: 10px;
+}
+
+#s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-pills > li > a {
+                            
+                            border: 1px solid transparent;
+                            -webkit-border-radius: 0;
+                            -moz-border-radius: 0;
+                            border-radius: 0;
+                            background-color: rgba(0, 0, 0, 0.7);
+                            color: #ffffff;
+                            padding: 4px 15px;
+                        }
+#s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-pills > .active > a {
+    background-color: #000;
+
+}
+
+#navsearch ul li:nth-last-child(1){
+	width: 220px;
+	padding: 8px 0 0 0;
+	float: none;
+	clear: both;
+}
+
+#navsearch a{
+text-decoration: none;
+color: #525252;
+}
+#navsearch ul li a:hover{
+	color: #680013;
+}
+#navsearch ul li input[type='text']{
+	float: left;
+	}
+#navsearch ul li input[type='submit']{
+	width: 18px;
+	height: 18px;
+	float: left;
+	padding-bottom:2px;
+	margin: 0 5px 0 0;
+	-webkit-appearance:none;
+	font-family: "Helvetica", sans-serif;
+	font-weight: bold;
+}
+
+.nav .s-lg-index-nav-btn > button {
+    color: white;
+    background-color: transparent;
+}
+
+.nav-pills > li.active > button, .nav-pills > li.active > button:focus, .nav-pills > li.active > button:hover {
+    background-color: black;
+    color: #fff;
+}
+#s-lib-public-header-title {
+    padding-left: 15%;
+}
+
+
+
+/* breadcrumbs */
+ 
+ .breadcrumb  li a{
+    color:#525252;
+ }
+ 
+ #s-lib-admin-bc .breadcrumb, #s-lib-bc .breadcrumb {
+    margin: 5px 0 10px;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 0;
+    background-color: transparent;
+    padding-left: 5%;
+}
+ 
+/*menu */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+     background-color: #484848;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) inset;
+transition: all 0.2s ease-in 0s;
+}
+
+.nav-pills > li > a{
+color:#CDCEC9;
+
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    color: #fff;
+     background-color: #484848;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) inset;
+transition: all 0.2s ease-in 0s;
+} 
+.s-lib-box .s-lib-box-title {
+    font-size: 16px;
+    }
+
+   /* Guide Pages */
+.s-lib-box {
+    border: 1px solid #D4D2CD;
+}
+
+   
+#s-lg-guide-header {
+margin-left:10%;
+position: relative;
+z-index: 1000;
+overflow: visible !important;
+color:#000;
+}
+.s-lib-header h1 {
+    color: #000;
+    font-family: 'Arvo', serif;
+    text-transform:uppercase;
+    letter-spacing: 1.5 px;
+    padding-left:5%
+      
+}
+
+#s-lg-guide-name {
+    font-size:200%;
+    padding-left:5%
+}
+
+#s-lg-guide-description {
+    padding-left: 5%;
+}
+
+.s-lib-box-content {
+    font-size:14px;
+    color:#000;
+}
+
+.s-lib-public-side-header {
+    font-family:'Droid Sans', sans-serif;
+    color: #000;
+    font-size: 110%;
+    font-weight:700;
+    padding-top:30px;
+}
+
+/*Tabs*/
+#s-lg-guide-tabs {
+text-decoration: none;
+color: #CDCEC9;
+}
+
+
+
+.tabs {
+   width:100%;
+   
+  }
+#s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-pills > .active > a{
+    background:  none repeat scroll 0% 0% rgba(0, 0, 0, 0.7);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) inset;
+transition: all 0.2s ease-in 0s;
+}
+
+ #s-lg-guide-tabs-title-bar {
+    border-top: 0px solid #484848;
+}
+
+/*buttons */
+
+.label-info {
+    background: none repeat scroll 0% 0% #9E9578;
+}
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 10px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0em;
+    font-family:"Arvo", "Rockwell", "serif";
+  }
+
+.label-info[href]:hover, .label-info[href]:focus {
+    background-color: #9E9578;
+    color: #fff;
+}
+    
+ .btn-info {
+    display: block;
+background: #9E9578;
+padding: 0.2em 0.6em 0.3em;
+font-size: 14px;
+color: #fff;
+text-decoration: none;
+    font-family:"Arvo", "Rockwell", "serif";
+    border-radius:0;
+      border:0;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #9E9578;
+    border-color: #9E9578;
+}
+
+.alert-info {
+    background-color: #CDCEC9;
+    border-color: #484848;
+    color:  #525252;
+}
+
+
+#col2{
+background-color:#fff;
+border:5px solid #272727;
+}
+#s-lib-public-header {
+margin: 0px auto;
+width: 100%;
+position: relative;
+z-index: 1000;
+overflow: visible !important;
+color:#fff;
+padding-left: 5%;
+}
+
+#s-lg-hp-nav, #s-lg-az-nav, #s-lg-profile-nav, #s-lg-srch-nav {
+    color: #fff;
+    background: none repeat scroll 0% 0%  #525252;
+    margin-bottom: 20px;
+    padding: 0px;
+    border-radius:0;
+}
+#s-lg-index-nav-btn active {
+    background: none repeat scroll 0% 0%  #484848;
+}
+.bold {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.pad-right-none {
+    padding-right: 5px;
+}
+
+.pad-left-none {
+    padding-left: 5px;
+}
+
+.s-lib-header h1 {
+   padding-left:5%;
+    
+    }
+#s-lib-public-header-desc  {
+    margin-left:5%;
+}
+
+#s-lg-hp-nav-bottom, #s-lg-srch-nav-bottom {
+    padding: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #CCC;
+    color: #484848;
+}
+
+/* Overriding Stuff We Don't Use */
+
+.fa-th:before {
+    display:none;
+}
+
+.fa-mortar-board:before, .fa-graduation-cap:before {
+    display:none;
+}
+
+.fa-asterisk:before {
+    display:none;
+}
+
+#s-lib-public-header-desc {
+    display:none;
+}
+/*a-z*/
+#s-lg-az-cols {
+    background:#fff;
+}
+
+/*Footer*/
+
+#footer {
+background-color:#fff;
+padding: 2%;
+height: 150px;
+}
+#footertxt {
+float: left;
+margin-left: 15%;
+display: block;
+font-family: "Arial", sans-serif;
+	font-size: 10px;
+	color: #525252;
+	line-height: 14px;
+	text-transform:uppercase;
+}
+
+#footertxt a {
+color: #525252;
+}
+
+#footerloyola {
+float: right;
+margin-right: 15%;
+}
+#footerloyola a {
+color: #fff;
+background: url("http://libraries.luc.edu/sites/all/css/logo.png") no-repeat 0px 0px;
+width: 180px;
+height: 40px;
+display: block;
+text-indent: -9999px;
+background-repeat: no-repeat;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 600px) {
+    /*Remove search box on phone*/
+    #navsearch {
+        display: none;
+    }
+    
+        #s-lg-guide-header {
+    height:150px;
+}
+#s-lg-guide-name {
+    font-size: 150%;
+}
+.s-lib-box-std .s-lib-box-title {
+    background-color: none repeat scroll 0% 0% #9E9578;
+    color: #FFF;
+}
+/*remove sticky menus on phone*/
+.affix  {
+    position: relative;
+}
+
+@media screen and (max-width: 800px) {
+#footer {
+    height:250px;
+    }
+    #footertxt {
+    float:none;
+    }
+   #footerloyola{
+   float:left;
+   margin-left: 15%;
+   }
+}
